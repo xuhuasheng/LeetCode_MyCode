@@ -5,8 +5,8 @@
  */
 class Solution {
     public String convertToTitle(int n) {
-        StringBuffer tittle = new StringBuffer();
-        return tittle;
+        // 大佬的代码一行搞定
+        return n == 0 ? "" : convertToTitle(--n / 26) + (char)('A' + (n % 26));
     }
 }
 
