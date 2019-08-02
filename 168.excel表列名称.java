@@ -5,7 +5,8 @@
  */
 class Solution {
     public String convertToTitle(int n) {
-        
+        StringBuffer tittle = new StringBuffer();
+        return tittle;
     }
 }
 
