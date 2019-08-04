@@ -4,7 +4,7 @@
  * [172] 阶乘后的零
  */
 class Solution {
-
+    //大佬的数学理论
     public int trailingZeroes(int n) {
         int r = 0;
         while (n > 0) {
@@ -13,7 +13,7 @@ class Solution {
         }
         return r;
     }
-    
+    //我的常规算法会溢出
     public int trailingZeroes2(int n) {
         int res = factorial(n);
         int zero_cnt = 0;
